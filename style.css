@@ -19,6 +19,14 @@ header {
     background-position: center center;
 }
 
+div ul li a:hover,
+div ul li.active a {
+    background-color: #fff;
+    color: #24252a;
+    border: 7px solid white;
+    border-radius: 30px;
+}
+
 .navbar{
     position: absolute;
     padding: 50px;
@@ -47,7 +55,8 @@ header {
 }
 
 .navbar .nav-links ul li.active a {
-    color: #ed3c57;
+    border: 7px solid white;
+    color: #24252a;
     font-weight: 600;
 }
 
@@ -80,7 +89,7 @@ header {
         left: 0;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.20);
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(px);
         width: 100%;
         height: 100vh;
         display: flex;
